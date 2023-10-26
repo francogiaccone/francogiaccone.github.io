@@ -272,6 +272,22 @@ video {
     border-bottom-right-radius: 15px;
 }
 
+#section-4 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 30px;
+}
+
+#section-4 button {
+    background-color: #a3a3a3;
+    color: white;
+    border: 0;
+    font-size: 25px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
 /* ----- FOOTER -----*/
 .footer {
     background-color: #de1d22;

@@ -80,7 +80,7 @@ a {
 
 #tienda-section-1 {
     background-image: url(../img/main_ruge.webp);
-    min-height: 600px;
+    height: 800px;
     background-size: cover;
     display: flex;
     justify-content: space-between;

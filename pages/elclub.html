@@ -77,16 +77,31 @@
                 <p>Calle 462 (Alvear) esq. 28</p>
                 <p>(+54 221) 521 7106</p>
                 <p>(1896) City Bell</p>
+                <br>
+                <p>COLEGIO ESTUDIANTES DE LA PLATA</p>
+                <p>Calle 462 (Alvear) esq. 28</p>
+                <p>(+54 221) 521 7108</p>
+                <p>(1896) City Bell</p>
             </div>
             <div class="form">
-                <form action="">
-                    <input type="text" placeholder="Tu nombre" required>
+                <form id="formulario" onsubmit="return validar()">
+                    <span class="span_nombre">Max. 30 caracteres</span>
+                    <input id="form_nombre" type="text" placeholder="Tu nombre *">
 
-                    <input type="email" placeholder="Tu email" required>
+                    <span class="span_email">Debe incluir @ y 3 letras despues del punto</span>
+                    <input id="form_email" type="text" placeholder="Tu email *">
 
-                    <textarea name="" id="" cols="30" rows="10" placeholder="Tu comentario" required></textarea>
+                    <span class="span_txt">Max. 500 caracteres</span>
+                    <textarea id="form_txt" cols="30" rows="10" placeholder="Tu duda o consulta *"></textarea>
                     
-                    <button type="submit">Enviar</button>
+                    <div class="btns">
+                        <button class="btnEnviar" type="submit">Enviar</button>
+                        <button class="btnReset" type="reset">Limpiar</button>
+                    </div>
+                    
+                    <div class="errores">
+
+                    </div>
                 </form>
             </div>
         </section>
@@ -110,5 +125,7 @@
             
         </div>
     </footer>
+
+    <script src="../scripts/validar-form.js"></script>
 </body>
 </html>
