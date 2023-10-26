@@ -184,6 +184,11 @@ iframe {
     padding: 0;
 }
 
+.errores {
+    display: flex;
+    justify-content: space-between;
+}
+
 
 /* ----- FOOTER -----*/
 .footer {
