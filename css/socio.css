@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap');
+
 body {
     background-color: black;
     font-family: 'Lato', sans-serif;
@@ -35,10 +36,6 @@ a {
     padding: 5px 5%;
 }
 
-.header .logo img {
-    width: 50px;
-}
-
 .nav-links {
     display: flex;
     gap: 40px;
@@ -73,6 +70,7 @@ a {
 }
 
 /* ----- MAIN ----- */
+
 .carnet-socio {
     width: 80%;
     margin: 40px auto;

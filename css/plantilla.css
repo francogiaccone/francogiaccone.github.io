@@ -37,10 +37,6 @@ a {
     padding: 5px 5%;
 }
 
-.header .logo img {
-    width: 50px;
-}
-
 .nav-links {
     display: flex;
     gap: 40px;
@@ -73,19 +69,16 @@ a {
     background-color: black;
     transform: scale(1.1);
 }
-/* -----*/
-
 
 /* ----- MAIN ----- */
+
 #plantilla-section-1 {
     height: 500px;
 }
 
 #plantilla-section-1 .imagen-equipo {
     position: absolute;
-    width: 100%;
     object-fit: cover;
-    height: 500px;
     clip-path: ellipse(100% 50% at 50% 41%);
 }
 
@@ -124,8 +117,6 @@ a {
 }
 
 .card-jugador img {
-    width: 100%;
-    height: 260px;
     object-fit: cover;
 }
 

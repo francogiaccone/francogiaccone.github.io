@@ -28,7 +28,6 @@ a {
     color: white;
 }
 
-
 /* ----- HEADER ----- */
 
 .header {
@@ -37,10 +36,6 @@ a {
     justify-content: space-between;
     align-items: center;
     padding: 5px 5%;
-}
-
-.header .logo img {
-    width: 50px;
 }
 
 .nav-links {
@@ -76,7 +71,6 @@ a {
     transform: scale(1.1);
 }
 
-
 /* ----- MAIN ----- */
 
 #section-1 {
@@ -110,10 +104,6 @@ video {
     font-size: 50px;
     letter-spacing: 2px;
     text-align: center;
-}
-
-.s1-img {
-    width: 200px;
 }
 
 .s1-boton {
@@ -281,8 +271,6 @@ video {
     border-bottom-left-radius: 15px;
     border-bottom-right-radius: 15px;
 }
-
-
 
 /* ----- FOOTER -----*/
 .footer {

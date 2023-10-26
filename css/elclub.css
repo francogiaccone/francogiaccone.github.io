@@ -39,10 +39,6 @@ a {
     padding: 5px 5%;
 }
 
-.header .logo img {
-    width: 50px;
-}
-
 .nav-links {
     display: flex;
     gap: 40px;
@@ -63,7 +59,7 @@ a {
     font-family: 'Lato';
     font-size: 17px;
     color: white;
-    background-color: rgb(120, 0, 0);
+    background-color: #780000;
     cursor: pointer;
     border: none;
     border-radius: 50px;
