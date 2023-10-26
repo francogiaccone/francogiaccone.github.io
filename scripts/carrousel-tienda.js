@@ -16,7 +16,7 @@ botonIzq.addEventListener("click", () => {
     let portadaActual = portadas[index];
 
     fondo.style.backgroundImage = "url(" + portadaActual + ")";
-
+    fondo.style.backgroundSize = "cover";
 });
 
 botonDer.addEventListener("click", () => {
@@ -29,4 +29,5 @@ botonDer.addEventListener("click", () => {
     let portadaActual = portadas[index];
 
     fondo.style.backgroundImage = "url(" + portadaActual + ")";
+    fondo.style.backgroundSize = "cover";
 });
