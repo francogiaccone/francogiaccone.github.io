@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap');
+body {
+    background-color: black;
+    font-family: 'Lato', sans-serif;
+}
+
+body::-webkit-scrollbar {
+    width: 10px;
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: #acacac;
+}
+
+body::-webkit-scrollbar-thumb:hover {
+    background-color: #727272;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+/* ----- HEADER ----- */
+
+.header {
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 5%;
+}
+
+.header .logo img {
+    width: 50px;
+}
+
+.nav-links {
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    align-items: center;
+}
+
+.header .nav-links li {
+    font-size: 17px;
+    transition: border-bottom 150ms;
+}
+
+.header .nav-links li:last-child {
+    border-bottom: 0;
+}
+
+.header button{
+    font-family: 'Lato';
+    font-size: 17px;
+    color: white;
+    background-color: #414141;
+    cursor: pointer;
+    border: none;
+    border-radius: 50px;
+    padding: 8px 15px;
+    transition: all 400ms;
+}
+
+.header button:hover {
+    background-color: #505050;
+    transform: scale(1.1);
+}
+
+/* ----- MAIN ----- */
+.carnet-socio {
+    width: 80%;
+    margin: 40px auto;
+}
+
+.carnet-arriba {
+    background-color: #de1d22;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 40px;
+    border-radius: 30px 30px 0 0;
+}
+
+.carnet-arriba p {
+    color: white;
+    font-family: sans-serif;
+    font-size: 35px;
+    align-items: center;
+    letter-spacing: 2px;
+}
+
+.carnet-arriba span {
+    font-weight: bold;
+}
+
+.carnet-arriba img {
+    padding: 20px 0;
+}
+
+.carnet-abajo {
+    background-color: white;
+    display: flex;
+    align-items: center;
+    padding: 50px 0 50px 50px;
+    font-family: 'Lato';
+    border-radius: 0 0 30px 30px;
+}
+
+.carnet-abajo img {
+    margin: 20px;
+}
+
+.info-carnet {
+    margin-left: 30px;
+}
+
+.titulo-carnet {
+    font-size: 15px;
+    color: gray;
+    margin-bottom: -10px;
+}
+
+.dato-carnet {
+    font-size: 25px;
+}
+
+.nro-carnet {
+    color: gray;
+    text-align: center;
+    font-size: 20px;
+    margin-top: -10px;
+}
+
+.botones {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 30px;
+}
+
+.botones button {
+    padding: 20px 60px;
+    border-radius: 40px;
+    border: 0;
+    color: black;
+    background-color: #ffffff;
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.botones input {
+    padding: 0 20px;
+    color: black;
+}
+
+.botones input:focus {
+    outline: none;
+}
+
+.carnet-dorso {
+    width: 80%;
+    margin: 40px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 30px;
+    background-image: url(../img/fondo-rojo-blanco.webp);
+    background-size: cover;
+    display: none;
+    min-height: 595px;
+}
+
+.carnet-dorso p {
+    font-size: 40px;
+    color: white;
+    font-family: 'Lato';
+}
